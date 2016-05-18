@@ -7,7 +7,7 @@ import "gitlab.com/matteo.angelino/stack"
 import "fmt"
 
 func main(){
-    s := new(stack.Stack)
+    var s stack.Stack
     s.Push(10)
     s.Push(15)
     s.Push(20)
