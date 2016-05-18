@@ -16,12 +16,23 @@ func (s *Stack) Push(v interface{}) {
 	s.size += 1
 }
 
-func (s *Stack) Pop() interface{} {
+func (s *Stack) Size() int {
+	return s.size
+}
+
+func (e *Element) Value() interface{} {
+	if e != nil {
+		return e.value
+	}
+	return nil
+}
+
+func (s *Stack) Pop() *Element {
 	if s.size > 0 {
 		var e Element = *s.top
 		s.top = e.next
 		s.size -= 1
-		return e.value
+		return &e
 	}
 	return nil
 }
