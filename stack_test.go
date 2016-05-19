@@ -1,7 +1,7 @@
 package stack_test
 
 import (
-	"gitlab.com/matteo.angelino/stack"
+	"github.com/matteo.angelino/stack"
 	"testing"
 )
 
