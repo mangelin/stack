@@ -1,3 +1,9 @@
+**Description**
+
+Stack type is a simple implementation of type stack in go. Stack is implemented
+as linked list of type Element. Element use generic type interface{} and can be
+used with any built-in or custom type.
+
 **Installation**
 
 This package can be installed with the go get command:
