@@ -20,6 +20,18 @@ func (s *Stack) Size() int {
 	return s.size
 }
 
+func (s *Stack) Top() *Element {
+	return s.top
+}
+
+func (s *Stack) Next() *Element {
+	return s.Pop()
+}
+
+func (s *Stack) Front() *Element {
+	return s.Top()
+}
+
 func (e *Element) Value() interface{} {
 	if e != nil {
 		return e.value
