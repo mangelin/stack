@@ -58,6 +58,7 @@ Stack type are composed by type *Element linked together. To access the value st
 ```
 
 **Testing**
+
 In order tu run test suite, execute the following command:
 
 ```
