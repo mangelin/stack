@@ -1,3 +1,11 @@
+**Installation**
+
+This package can be installed with the go get command:
+
+```
+go get github.com/mangelin/stack
+```
+
 **Usage**
 
 Stack type is very simple to use. This is a very basic example:
