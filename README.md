@@ -3,7 +3,7 @@
 Stack type is very simple to use. This is a very basic example:
 
 ```
-import "github.com/matteo.angelino/stack"
+import "github.com/mangelin/stack"
 import "fmt"
 
 func main(){
