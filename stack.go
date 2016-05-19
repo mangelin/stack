@@ -29,7 +29,7 @@ func (s *Stack) Next() *Element {
 }
 
 func (s *Stack) Front() *Element {
-	return s.Top()
+	return s.Pop()
 }
 
 func (e *Element) Value() interface{} {
